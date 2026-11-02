@@ -1,0 +1,8 @@
+# download.py needs only the Python standard library (3.8+).
+# For examples/ and baseline/:
+pandas
+numpy
+pillow
+matplotlib
+torch
+transformers>=4.56

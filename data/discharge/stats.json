@@ -1,0 +1,66 @@
+{
+  "train": {
+    "site": "HOPB",
+    "images": 8186,
+    "days": 1648,
+    "first_date": "2019-04-09",
+    "last_date": "2023-12-31",
+    "images_per_day": 4.97,
+    "discharge_lps": {
+      "min": 0.0,
+      "p05": 4.76,
+      "median": 191.57,
+      "p95": 780.49,
+      "max": 3516.96
+    },
+    "zero_flow_images": 294
+  },
+  "val": {
+    "site": "HOPB",
+    "images": 1810,
+    "days": 364,
+    "first_date": "2024-01-01",
+    "last_date": "2024-12-31",
+    "images_per_day": 4.97,
+    "discharge_lps": {
+      "min": 6.47,
+      "p05": 14.22,
+      "median": 93.78,
+      "p95": 864.87,
+      "max": 2336.15
+    },
+    "zero_flow_images": 0
+  },
+  "test": {
+    "site": "HOPB",
+    "images": 1766,
+    "days": 355,
+    "first_date": "2025-01-01",
+    "last_date": "2025-12-31",
+    "images_per_day": 4.97,
+    "discharge_lps": {
+      "min": 0.0,
+      "p05": 0.0,
+      "median": 81.19,
+      "p95": 700.04,
+      "max": 2512.02
+    },
+    "zero_flow_images": 141
+  },
+  "test_oksr": {
+    "site": "OKSR",
+    "images": 2476,
+    "days": 497,
+    "first_date": "2020-08-01",
+    "last_date": "2025-10-14",
+    "images_per_day": 4.98,
+    "discharge_lps": {
+      "min": 52.93,
+      "p05": 220.28,
+      "median": 818.67,
+      "p95": 7322.31,
+      "max": 28622.8
+    },
+    "zero_flow_images": 0
+  }
+}

@@ -1,0 +1,4 @@
+data/images/
+*.part
+__pycache__/
+baseline/features/
